@@ -1,10 +1,20 @@
 ---
 const platform = "github";
 const username = "antorrg";
+import Social from './Social.astro'
 ---
 
+<style>
+  footer {
+    display: flex;
+    gap: 1rem;
+    margin-top: 2rem;
+  }
+</style>
+
 <footer>
-  <p>¡Más información sobre mis proyectos en <a href={`https://www.${platform}.com/${username}`}>{platform}</a>!</p>
-  <p>Contacteme: <a href= {'https://mail.google.com/mail/?tab=rm&ogbl'}><img src="/imgs/contact/email.svg"></a></p>
-  <br>
+    
+    <Social platform="github" username="antorrg" />
+    <Social platform="youtube" username="antoniorodriguezgramajo@gmail.com"/>
+    <br>
 </footer>
