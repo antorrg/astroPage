@@ -1,14 +1,13 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import Card from '../components/Card.astro';
-import Header from '../components/Header.astro'
-import Footer from '../components/Footer.astro'
+
 
 ---
 
-<Layout title="Welcome to Astro.">
+<Layout title="Bienvenido a  Astro.">
 	<main>
-		<Header/>
+		
 		
 		
 		<svg
@@ -39,41 +38,34 @@ import Footer from '../components/Footer.astro'
 				</linearGradient>
 			</defs>
 		</svg>
-		<h1>Welcome to <span class="text-gradient">Astro</span></h1>
-		<p class="instructions">
-			To get started, open the directory <code>src/pages</code> in your project.<br />
-			<strong>Code Challenge:</strong> Tweak the "Welcome to Astro" message above.
+		<h1>Bienvenido a  <span class="text-gradient">Astro</span></h1>
+		<p class="instrucciones">
+			Para comenzar abra la carpeta  <code>src/pages</code> en su proyecto.<br />
+			<strong>Desafío de código:</strong> Cambie el mensaje de "Bienvenido a Astro" de arriba.
 		</p>
 		<ul role="list" class="link-card-grid">
 			<Card
 				href="https://docs.astro.build/"
-				title="Documentation"
-				body="Learn how Astro works and explore the official API docs."
+				title="Documentación"
+				body="Aprenda como trabaja Astro y explore la oficial 'API docs'"
 			/>
 			<Card
 				href="https://astro.build/integrations/"
-				title="Integrations"
-				body="Supercharge your project with new frameworks and libraries."
+				title="Integraciones"
+				body="Recargue su proyecto con nuevos frameworks y librerías."
 			/>
 			<Card
 				href="https://astro.build/themes/"
-				title="Themes"
-				body="Explore a galaxy of community-built starter themes."
+				title="Temas"
+				body="Explore una galaxia de temas de inicio de la comunidad-creadores."
 			/>
 			<Card
 				href="https://astro.build/chat/"
-				title="Community"
-				body="Come say hi to our amazing Discord community. ❤️"
+				title="Comunidad"
+				body="Venga, salude a nuestra maravillosa comunidad de Discord. ❤️"
 			/>
 		</ul>
-		<Footer/>
-	</main>
-		<script>
-			//  document.querySelector('.hamburger').addEventListener('click', () => {
-			// 	document.querySelector('.nav-links').classList.toggle('expanded');
-			// });
-		   //import "../scripts/menu.js";
-		</script>
+	</main>	
 </Layout>
 
 <style>
