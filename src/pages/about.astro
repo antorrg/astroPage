@@ -7,7 +7,7 @@ const identity = {
   firstName: "Antonio",
   country: "Argentina",
   occupation: "Desarrollador fullstack",
-  hobbies: ["fotografia", "observación de aves", "peñarol"],
+  hobbies: ["Taekwon-Do", "Música", "peñarol"],
 };
 
 const skills = ["HTML", "CSS", "JavaScript", "React", "Astro", "Redacción de documentos", "Node.js", "Express.js", "Postgres", "MongoDB"];
@@ -56,7 +56,7 @@ const goal = 3;
 			height="360" style="display: block; margin-left: auto; margin-right: auto;" >
 			<p style="font-size: 0.8em;" >Ya estamos en camino...</p>
           
-            <p>Estoy trabajando en el tutorial introductorio de Astro. Esta es la segunda página de mi sitio web, ¡y es la primera que he construido yo mismo!</p>
+            <p>Estoy trabajando en el tutorial introductorio de Astro. Esta es la segunda página de mi sitio web, ¡y es la primera que construí con Astro!</p>
           
             <p>Este sitio se irá actualizando a medida que vaya completando más partes del tutorial, ¡así que no dejes de visitarlo para ver cómo va mi viaje!</p>
 			<p>He aquí algunos datos sobre mí:</p>
@@ -66,7 +66,7 @@ const goal = 3;
   <li>Me llamo {identity.firstName}.</li>
   <li>Vivo en {identity.country} y trabajo como {identity.occupation}.</li>
   {identity.hobbies.length >= 2 &&
-    <li>Dos de mis aficiones son: {identity.hobbies[0]} y {identity.hobbies[1]}</li>
+    <li>Dos de mis aficiones son: {identity.hobbies[0]} y la {identity.hobbies[1]}</li>
   }
 </ul>
 <p>Mis habilidades son:</p>
@@ -78,7 +78,7 @@ const goal = 3;
 
 {finished && <p>¡He terminado este tutorial!</p>}
 
-{goal === 3 ? <p>Mi objetivo es terminar en 3 días.</p> : <p>Mi objetivo no son 3 días.</p>}
+<p>Mi objetivo es poder incluir a Astro en las tecnologías que use a diario y también poder ofrecer por medio de ella productos de calidad al cliente y con la mayor sencillez que el caso requiera.</p>
 
           </body>
 		
